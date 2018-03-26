@@ -6,6 +6,7 @@ class Application
     req = Rack::Request.new
 binding.pry
  if req.path.match(/items\/<ITEM NAME>/)
+   binding.pry
   @match = @@items.detect{|item| item = req.path.last }
    resp.write price
    binding.pry
