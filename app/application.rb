@@ -6,6 +6,7 @@ class Application
     req = Rack::Request.new
 
 binding.pry
+"other stuff"
 end
 
 
